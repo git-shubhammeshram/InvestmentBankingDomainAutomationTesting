@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="13" total="14" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[URL shown in the webpage:- https://www.investopedia.com/simulator/account]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-17T19:18:05 IST" name="Default suite" finished-at="2024-10-17T19:18:41 IST" duration-ms="36185">
+    <groups>
+    </groups>
+    <test started-at="2024-10-17T19:18:05 IST" name="Default test" finished-at="2024-10-17T19:18:41 IST" duration-ms="36185">
+      <class name="TestCases._4_PorfileSettingPageTestCase">
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCases._4_PorfileSettingPageTestCase@2a3888c1]" started-at="2024-10-17T19:18:05 IST" name="init" finished-at="2024-10-17T19:18:38 IST" duration-ms="33163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyURLTest()[pri:0, instance:TestCases._4_PorfileSettingPageTestCase@2a3888c1]" started-at="2024-10-17T19:18:38 IST" name="verifyURLTest" finished-at="2024-10-17T19:18:39 IST" duration-ms="1673" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[URL shown in the webpage:- https://www.investopedia.com/simulator/account]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyURLTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TestCases._4_PorfileSettingPageTestCase@2a3888c1]" started-at="2024-10-17T19:18:39 IST" name="closeBrowser" finished-at="2024-10-17T19:18:41 IST" duration-ms="1289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURLTest status=SUCCESS method=_4_PorfileSettingPageTestCase.verifyURLTest()[pri:0, instance:TestCases._4_PorfileSettingPageTestCase@2a3888c1] output=URL shown in the webpage:- https://www.investopedia.com/simulator/account]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases._4_PorfileSettingPageTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
